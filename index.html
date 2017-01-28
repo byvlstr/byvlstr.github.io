@@ -3,23 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>VlstrCom</title>
-    <meta name="description" content="">
+    <title>Valentin Lungenstrass</title>
+    <meta name="description" content="Valentin Lungenstrass - Empowering people with technology to both live in a more sustainable way and to get value-added entertainment">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-<meta name="vlstr-com/config/environment" content="%7B%22modulePrefix%22%3A%22vlstr-com%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22vlstr-com%22%2C%22version%22%3A%220.0.0+072200ad%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta name="vlstr-com/config/environment" content="%7B%22modulePrefix%22%3A%22vlstr-com%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22vlstr-com%22%2C%22version%22%3A%220.0.0+9188ca28%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
 
-    <link rel="stylesheet" href="/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css" integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==" >
-    <link rel="stylesheet" href="/assets/vlstr-com-d41d8cd98f00b204e9800998ecf8427e.css" integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==" >
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-red.min.css" />
+    <!-- <link rel="stylesheet" href="assets/styles-38b948336d7c1f7acd323bd4ede84c91.css" /> -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     
   </head>
-  <body>
+  <body style="background-color: #eee;" onload='setIntervalSyncMDL()'>
+
     
 
+    <script>
+      function setIntervalSyncMDL()
+      {
+        setInterval("syncMDL();", 200);
+      }  
+      function syncMDL() {
+        componentHandler.upgradeDom();
+      }
+    </script>
     <script src="/assets/vendor-b4ded06692ab918ec6e0810797cb1432.js" integrity="sha256-6Dox9nw7E1kQCI0az6pa7thdZLx1cOTcnpPknxlsdAI= sha512-Q8NWJfQpeU3aBMa2t8VQQ34edPRGHda+c4HEUO1DaA30Z1LDHqvG1fl6m4qOtTK5xF1z9jHA4a4iyvdj6pyeGQ==" ></script>
-    <script src="/assets/vlstr-com-557361b50009e349bb868a47f3a2e511.js" integrity="sha256-/iyDZyS6fbq3kGFgPK0mPO9ZDU2RGsUSGmfKHhDWGf4= sha512-B2SnF4t7Dijy7LYCD2ScNeySwxzBAD379gL9mpPJPZo4C7nDzQFzEayg/MWo0qIyLHOHLxPxocToZqGMkl4GXQ==" ></script>
+    <script src="/assets/vlstr-com-f97213d70e4b60fd546eda3145bfc5e7.js" integrity="sha256-/RaCZ5P/9tcXHgItoKZ0P4pvABL8W0XobGOCv1w6AXw= sha512-9yJ9vjVBYYflalbzBRsYl9A3iZ/ev3UHiiVdHMVy74CF6cfXIr4XpJ2iS/acQv0lfFLgz4/SdaQI3kGHaBJyTg==" ></script>
 
     
   </body>
